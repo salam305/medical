@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.navigation{
+    width: 100%;
+    height: 60px;
+    background: rgb(20, 2, 119);
+    z-index:99;
+    position: fixed;
+}
+.navigation ul{
+    list-style-type: none;
+    position: relative;
+
+}
+.navigation ul li{
+    float: left;
+    margin-left:60px;
+    margin-top: 20px;
+     
+}
+.navigation ul li:hover > ul{
+    display: block;
+     
+}
+
+.navigation ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    width: 100%;
+    
+}
+.navigation ul li ul{
+    
+    position: absolute;
+    width: 180px;
+    height: 200px;
+    background:black;
+    background-size: cover;
+    border-radius: 0px 25px 10px 10px;
+    box-shadow: 0px 0px 10px 0px black;
+    margin-top: 5px;
+    display: none;
+}
+
+
+.navigation ul li ul li{
+    clear: both;
+    margin-top: 15px;
+    margin-left: 5px;
+    width: 100%;
+   
+}
+.navigation ul li ul li a{
+    color:white;
+    width: 100%;
+    
+    
+}
+.navigation ul li ul li a:hover{
+    color:blue;
+    width: 100%;
+    
+    
+}
+.menu{
+    width: 100%;
+    height: 120px;
+    background: rgb(245, 245, 247);
+    z-index:90;
+    position: absolute;
+    top: 60px;
+}
+.menu ul{
+    list-style-type: none;
+    position: relative;
+
+}
+.menu ul li{
+    float: left;
+    margin-left:60px;
+    margin-top: 20px;
+     
+}
+.menu ul li:hover > ul{
+    display: block;
+     
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+    font-weight: bolder;
+    width: 100%;
+    
+}
+.menu ul li ul{
+    
+    position: absolute;
+    width: 180px;
+    height: 200px;
+    background: white;
+    border-radius: 0px 25px 10px 10px;
+    box-shadow: 0px 0px 10px 0px black;
+    margin-top: 5px;
+    display: none;
+}
+
+
+.menu ul li ul li{
+    clear: both;
+    margin-top: 15px;
+    margin-left: 5px;
+    width: 100%;
+   
+}
+
+.menu ul li ul li a{
+    color:black;
+    width: 100%;
+ 
+}
+.menu ul li ul li a:hover{
+    color:blue;
+ 
+}
+.btn-find{
+    padding: 10px 15px;
+    background: transparent;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 10px 0px blue;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    float: right;
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+}
+.btn-find:hover{
+
+    background: black;
+    color: white;
+}
+.img{
+    width: 100%;
+    height: 300px;
+    position:absolute;
+    top: 180px;
+    background-image: url(../img/p1.PNG);
+    background-position: center center;
+    background-size: cover;
+}
+.search{
+    width: 400px;
+    height: 40px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+.search input{
+    width: 70%;
+    height: 100%;
+    border-radius: 10px 0px 0px 10px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+.search .btn-search{
+
+    width: 25%;
+    height: 100%;
+    color: black;
+    background: transparent;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 0px 10px 10px 0px;
+    margin-left: -10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}
+.add{
+
+    width: 100%;
+    height: 300px;
+    position: relative;
+    top: 500px;
+}
+.add img{
+    width: 50%;
+    height: 200px;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    margin: auto;
+    border-radius: 5px;
+   
+}
+.add .img1{
+    width: 50%;
+    height: 400px;
+    position: absolute;
+    top: 5%;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    margin: auto;
+   
+}
+.add .img2{
+    width: 30%;
+    height: 300px;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    bottom: 0px;
+    margin: auto;
+    
+}
+.add .img3{
+    width: 30%;
+    height: 300px;
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    bottom: 0px;
+    margin: auto;
+    
+}
+
+.add .img1 img{
+
+    width: 80%;
+    height: 50%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    margin: auto;
+    border-radius: 6px;
+
+}
+.add .img2 img{
+
+    width: 60%;
+    height: 70%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: auto;
+    border-radius: 6px;
+
+}
+.add .img3 img{
+
+    width: 60%;
+    height: 70%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin: auto;
+    border-radius: 6px;
+
+}
+.add .img1 h2{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    margin: auto;
+}
+.footer{
+    width: 100%;
+    height: 200px;
+    background: lightblue;
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    margin: auto;
+
+}
+
